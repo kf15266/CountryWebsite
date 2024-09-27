@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(178, 214, 238) ;
     
 }
 h1{
@@ -7,15 +7,19 @@ h1{
     border: 5px solid rgb(99, 99, 178);
 }
 .card { 
-    width: 90%; 
-    background-color: rgb(255, 255, 255); 
+    height: auto;
+    width: auto; 
+    background-color: rgb(204, 225, 255); 
     margin: 3%; 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     
 } 
+
+
 
 .card-txt { 
     text-align: center; 
-    padding: 30px; 
+    padding: 40px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 .column {
@@ -64,4 +68,22 @@ nav>ul>li{
 
 
  }
+ .footer{
+    margin-top: 40%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+
+ }
+
+ .footer>div{
+    margin: auto;
+ }
+ footer>p {
+    text-align: center;
+    background-color: aliceblue;
+ }
+
 
